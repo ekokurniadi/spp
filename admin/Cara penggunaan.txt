@@ -1,0 +1,8 @@
+1. Untuk Login ke siswa link nya :
+ localhost/gentle
+ username : 123
+ password : 02/02/1995
+2. Untuk Login ke Admin link nya :
+ localhost/gentle/auth
+ username : admin
+ password : 12345
