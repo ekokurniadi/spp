@@ -117,22 +117,32 @@
             </tr>
             <?php endforeach;?>
        </table>
-                    <br>
-                    <br>
-       <table style="margin-left:300px;">
-            <tr>
-                <td colspan="5" align="right;" ><p style="font-size:11px;">Wali Murid</p></td>
-            </tr>
-            <tr>
-                <td colspan="5" align="center;"><br><br></td>
-            </tr>
-            <tr>
-                <td colspan="5" align="center;"><p style="font-size:11px;text-decoration:underline;">(  <?php if($user['nama_ayah']==""){
-                    $wali=$user['nama_ibu'];
-                }else{
-                    $wali=$user['nama_ayah'];
-                } echo $wali;?>  )</p></td>
-            </tr>
+       <br><br>
+       <table style="padding-left:15px;">
+       <tr>
+           <td width="500px;">
+                <p style="font-family:sans-serif;text-align:justify;font-size:12px;font-weight:normal;">Mengetahui</p>  
+           </td>
+           <td width="330px;">
+                <p style="font-family:sans-serif;text-align:justify;font-size:12px;font-weight:normal;">Mengetahui</p>  
+           </td>
+       </tr>
        </table>
+
+       <br>
+       <br>
+       <br>
+
+       <table style="padding-left:15px;">
+       <tr>
+           <td width="500px;">
+                <p style="font-family:sans-serif;text-align:justify;font-size:12px;font-weight:normal;">(Kepala Madrasah)</p>  
+           </td>
+           <td width="330px;">
+                <p style="font-family:sans-serif;text-align:justify;font-size:12px;font-weight:normal;">(Bendahara)</p>  
+           </td>
+       </tr>
+       </table>
+        <br>
     </body>
 </html>
