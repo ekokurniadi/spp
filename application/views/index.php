@@ -14,7 +14,7 @@
                 </div>
                 <div class="card-wrap">
                   <div class="card-header">
-                    <h4>Tunggakan SPP</h4>
+                    <h4>Tunggakan Komite</h4>
                   </div>
                   <div class="card-body">
                   Rp. <?php echo number_format($spp['spp'],0,',','.');?>

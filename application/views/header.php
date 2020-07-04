@@ -138,7 +138,7 @@
                     <i class="fas fa-info"></i>
                   </div>
                     <div class="dropdown-item-desc">
-                        Pembayaran SPP bulan <?=$bulan?> belum dibayar
+                        Pembayaran Komite bulan <?=$bulan?> belum dibayar
                         <div class="time text-primary">Rp <?php echo number_format($psn->biaya_spp,0,'.',',')?></div>
                       <div class="time text-primary">Bayar Sekarang</div>
                     </div>
@@ -260,7 +260,7 @@
                   <i class="fas fa-exclamation-triangle"></i>
                 </div>
                   <div class="dropdown-item-desc">
-                      Bukti Pembayaran SPP bulan <?=$bulan?> tidak valid
+                      Bukti Pembayaran Komite bulan <?=$bulan?> tidak valid
                        <!-- <div class="time text-primary">Rp <?php echo number_format($psn->biaya_spp,0,'.',',')?></div> -->
                     <div class="time text-primary">Upload Ulang</div>
                   </div>
@@ -382,7 +382,7 @@
                 <i class="fas fa-check"></i>
                 </div>
                 <div class="dropdown-item-desc">
-                    Pembayaran SPP bulan <?=$bulan?> sudah dikonfirmasi
+                    Pembayaran Komite bulan <?=$bulan?> sudah dikonfirmasi
                   <div class="time text-primary">Lihat Bukti Pembayaran</div>
                 </div>
                 <?php endforeach;?>
@@ -501,7 +501,7 @@
               <i class="fas fa-history"></i>
               </div>
               <div class="dropdown-item-desc">
-                  Pembayaran SPP bulan <?=$bulan?> Menunggu konfirmasi
+                  Pembayaran Komite bulan <?=$bulan?> Menunggu konfirmasi
                   <div class="time text-primary">Pembayaran akan di validasi oleh admin</div>
               </div>
               <?php endforeach;?>
@@ -652,7 +652,7 @@
               <li class="nav-item dropdown">
                 <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-database"></i> <span>Pembayaran</span></a>
                 <ul class="dropdown-menu">
-                  <li><a class="nav-link" href="<?php echo base_url('spp')?>">SPP</a></li>
+                  <li><a class="nav-link" href="<?php echo base_url('spp')?>">Komite</a></li>
                   <li><a class="nav-link" href="<?php echo base_url('osis')?>">Osis</a></li>
                   <li><a class="nav-link" href="<?php echo base_url('ekskul')?>">Ektrakurikuler</a></li>
                 </ul>
@@ -663,7 +663,7 @@
               <li class="nav-item dropdown">
               <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-file-pdf-o"></i> <span>Laporan</span></a>
                 <ul class="dropdown-menu">
-                  <li><a class="nav-link" href="<?php echo base_url('laporan_pdf/rekap_spp/'.$_SESSION['nis'])?>" target="_blank">Rekap Pembayaran SPP</a></li>
+                  <li><a class="nav-link" href="<?php echo base_url('laporan_pdf/rekap_spp/'.$_SESSION['nis'])?>" target="_blank">Rekap Pembayaran Komite</a></li>
                   <li><a class="nav-link" href="<?php echo base_url('laporan_pdf/rekap_osis/'.$_SESSION['nis'])?>" target="_blank">Rekap Pembayaran Osis</a></li>
                   <li><a class="nav-link" href="<?php echo base_url('laporan_pdf/rekap_eks/'.$_SESSION['nis'])?>" target="_blank">Rekap Pembayaran Ekskul</a></li>
                 </ul>

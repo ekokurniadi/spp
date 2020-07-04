@@ -2,10 +2,10 @@
  <div class="main-content">
 <section class="section">
   <div class="section-header">
-    <h1>Histori Pembayaran SPP </h1>
+    <h1>Histori Pembayaran Komite </h1>
     <div class="section-header-breadcrumb">
       <div class="breadcrumb-item active"><a href="<?php echo base_url(); ?>dashboard"><i class="fa fa-dashboard"></i> Home</a></div>
-      <div class="breadcrumb-item"><a href="#"> Histori Pembayaran SPP </a></div>
+      <div class="breadcrumb-item"><a href="#"> Histori Pembayaran Komite </a></div>
     </div>
   </div>
 

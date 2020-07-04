@@ -2,10 +2,10 @@
  <div class="main-content">
 <section class="section">
   <div class="section-header">
-    <h1> Pembayaran SPP </h1>
+    <h1> Pembayaran Komite </h1>
     <div class="section-header-breadcrumb">
       <div class="breadcrumb-item active"><a href="<?php echo base_url(); ?>dashboard"><i class="fa fa-dashboard"></i> Home</a></div>
-      <div class="breadcrumb-item"><a href="#"> Pembayaran SPP </a></div>
+      <div class="breadcrumb-item"><a href="#"> Pembayaran Komite </a></div>
     </div>
   </div>
 
@@ -15,7 +15,7 @@
                 <div class="card">
                 <div class="card-header">
                   <div class="col-12">
-                    <a href="<?php echo base_url('spp/history_spp')?>" class="btn btn-icon icon-left btn-primary"><i class="fa fa-history"></i> History Pembayaran SPP</a>
+                    <a href="<?php echo base_url('spp/history_spp')?>" class="btn btn-icon icon-left btn-primary"><i class="fa fa-history"></i> History Pembayaran Komite</a>
                 </div>
                 </div>
                   <div class="card-body">

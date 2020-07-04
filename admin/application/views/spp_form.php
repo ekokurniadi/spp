@@ -4,7 +4,7 @@
      <div class="">
        <div class="page-title">
          <div class="title_left">
-           <h3>Spp<small>Control Panel</small></h3>
+           <h3>Komite<small>Control Panel</small></h3>
          </div>
          <div class="title_right">
            <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
@@ -63,7 +63,7 @@
 	   
     
         <div class="form-group">
-            <label class="col-sm-2 control-label" for="double">Biaya Spp <?php echo form_error('biaya_spp') ?></label>
+            <label class="col-sm-2 control-label" for="double">Biaya Komite <?php echo form_error('biaya_spp') ?></label>
             <div class="col-sm-6">
                 <input type="text" class="form-control" name="biaya_spp" id="biaya_spp" placeholder="Biaya Spp" value="<?php echo $biaya_spp; ?>" />
             </div>

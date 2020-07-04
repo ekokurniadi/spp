@@ -29,10 +29,10 @@
 <div class="main-content">
 <section class="section">
   <div class="section-header">
-    <h1> Bukti Pembayaran SPP </h1>
+    <h1> Bukti Pembayaran Komite </h1>
     <div class="section-header-breadcrumb">
       <div class="breadcrumb-item active"><a href="<?php echo base_url(); ?>dashboard"><i class="fa fa-dashboard"></i> Home</a></div>
-      <div class="breadcrumb-item"><a href="#"> Bukti Pembayaran SPP </a></div>
+      <div class="breadcrumb-item"><a href="#"> Bukti Pembayaran Komite </a></div>
     </div>
   </div>
 
@@ -52,7 +52,7 @@
                 </div>
               </div>
               <div class="form-group">
-              <label class="col-sm-2 control-label" for="varchar">Pembayaran SPP Bulan <?php echo form_error('nis') ?></label>
+              <label class="col-sm-2 control-label" for="varchar">Pembayaran Komite Bulan <?php echo form_error('nis') ?></label>
               <div class="col-sm-12">
                     <input type="text" class="form-control" value="<?=$bulan?>" readonly>
                 </div>

@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <title>Cetak Pembayaran SPP</title>
+        <title>Cetak Pembayaran Komite</title>
         <link rel="stylesheet" href="<?php echo base_url('assets/bootstrap/css/bootstrap.min.css') ?>"/>
         <style>
             .word-table {

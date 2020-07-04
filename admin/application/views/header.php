@@ -87,7 +87,7 @@
                       <li><a href="<?php echo base_url('siswa')?>">Data Siswa</a></li>
                       <li><a href="<?php echo base_url('kelas')?>">Data Kelas</a></li>
                       <!-- <li><a href="<?php echo base_url('tahun_akademik')?>">Tahun Akademik</a></li> -->
-                      <li><a href="<?php echo base_url('komite')?>">Biaya SPP</a></li>
+                      <li><a href="<?php echo base_url('komite')?>">Biaya Komite</a></li>
                       <li><a href="<?php echo base_url('osis')?>">Biaya Osis</a></li>
                       <li><a href="<?php echo base_url('ekstrakurikuler')?>">Biaya Ekstrakurikuler</a></li>
                       <!-- <li><a href="form_validation.html">Setting Bulan Persemester</a></li> -->
@@ -101,14 +101,14 @@
                   <li><a><i class="fa fa-desktop"></i> Pembayaran <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="<?php echo base_url('pembayaran_spp')?>">Setting Pembayaran</a></li>
-                      <li><a href="<?php echo base_url('pembayaran/spp')?>">Pembayaran SPP</a></li>
+                      <li><a href="<?php echo base_url('pembayaran/spp')?>">Pembayaran Komite</a></li>
                       <li><a href="<?php echo base_url('pembayaran/osis')?>">Pembayaran Osis</a></li>
                       <li><a href="<?php echo base_url('pembayaran/ekskul')?>">Pembayaran Ekstrakurikuler</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-calendar"></i> Laporan <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="<?php echo base_url('laporan/spp')?>">Pembayaran SPP</a></li>
+                      <li><a href="<?php echo base_url('laporan/spp')?>">Pembayaran Komite</a></li>
                       <li><a href="<?php echo base_url('laporan/osis')?>">Pembayaran Osis</a></li>
                       <li><a href="<?php echo base_url('laporan/ekskul')?>">Pembayaran Ekstrakurikuler</a></li>
                     </ul>
@@ -212,18 +212,18 @@
                         <span>
                           <span class=""> 
                             <i class="fa fa-info"></i>
-                             Notifikasi Pembayaran SPP
+                             Notifikasi Pembayaran Komite
                           </span>
                           <!-- <span class="time">3 mins ago</span> -->
                         </span>
                         <span class="message">
-                         Pembayaran SPP bulan <?=$bulan?> semester <?=$psn->semester?> dari <?php echo $psn->nama?> kelas <?=$psn->kelas?> Menunggu Konfirmasi
+                         Pembayaran Komite bulan <?=$bulan?> semester <?=$psn->semester?> dari <?php echo $psn->nama?> kelas <?=$psn->kelas?> Menunggu Konfirmasi
                       </span>
                       <span>
                           <a href="<?php echo base_url('konfirmasi/spp/'.$psn->id);?>">
                             <span class="badge bg-green"> 
                                   <i class="fa fa-check"></i>
-                                  Proses Pembayaran SPP
+                                  Proses Pembayaran Komite
                             </span>
                           </a>
                       </span>
