@@ -58,8 +58,8 @@
 		<th>Kelas</th>
 		<!-- <th>Nis</th>
 		<th>Nama</th> -->
-		<th>Biaya Spp</th>
-		<th>Status Spp</th>
+		<th>Biaya Komite</th>
+		<th>Status Komite</th>
 		<!-- <th>Biaya Osis</th>
 		<th>Status Osis</th> -->
 		<th>Tanggal Jatuh Tempo</th>

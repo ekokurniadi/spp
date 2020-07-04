@@ -25,7 +25,7 @@
            
            <div class="x_panel">
            <div class="col-md-4">
-             <?php echo anchor(site_url('pembayaran/history_spp'),'History Pembayaran SPP', 'class="btn btn-primary"'); ?>
+             <?php echo anchor(site_url('pembayaran/history_spp'),'History Pembayaran Komite', 'class="btn btn-primary"'); ?>
              <!-- <?php echo $this->session->userdata('message') <> '' ? $this->session->userdata('message') : ''; ?> -->
              </div>
            <div class="col-md-12">
