@@ -27,9 +27,11 @@ class Auth extends MY_Controller {
 			$status = $this->auth->validate();
 			if ($status == ERR_INVALID_USERNAME) {
 				$this->session->set_flashdata('message', '<div class="alert alert-danger"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>Username atau Password Salah</div>');
+				echo "<script>alert('User tidak terdaftar')</script>";
 			}
 			elseif ($status == ERR_INVALID_PASSWORD) {
 				$this->session->set_flashdata('message', '<div class="alert alert-danger"><a href="#" class="close" data-dismiss="alert" aria-label="close" style="">&times;</a>Username atau Password Salah</div>');
+				echo "<script>alert('User tidak terdaftar')</script>";
 			}
 
 			else
