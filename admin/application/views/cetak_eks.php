@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <title>Cetak Pembayaran SPP</title>
+        <title>Cetak Pembayaran Komite</title>
         <link rel="stylesheet" href="<?php echo base_url('assets/bootstrap/css/bootstrap.min.css') ?>"/>
         <style>
             .word-table {
@@ -18,7 +18,7 @@
     </head>
     
     <body>
-        <h5>Bukti Pembayaran SPP</h5>
+        <h5>Bukti Pembayaran Komite</h5>
         <br>
         <?php $gambar="../image/";?>
         <br>
@@ -86,17 +86,17 @@
                 <td align="center"><?=++$start;?></td>
                 <td align="center"><?=$by->semester?></td>
                 <td align="center"><?=$bulan?></td>
-                <td align="center" width="50px;">Rp. <?=number_format($by->biaya_spp,0,'.',',')?></td>
-                <td><?=$by->tgl_spp?></td>
+                <td align="center" width="50px;">Rp. <?=number_format($by->biaya_ekstrakurikuler,0,'.',',')?></td>
+                <td><?=$by->tgl_ekskul?></td>
                 <td align="center"><?php
-                    if($by->foto_spp==""){
+                    if($by->foto_ekskul==""){
                         $jenis="Cash";
                     }else{
                         $jenis="Transfer";
                     }
                     echo $jenis;
                 ?></td>
-                <td align="center"><?=$by->status_spp?></td>
+                <td align="center"><?=$by->status_ekstrakurikuler?></td>
             </tr>
             <?php endforeach;?>
        </table>

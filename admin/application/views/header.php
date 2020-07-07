@@ -108,9 +108,9 @@
                   </li>
                   <li><a><i class="fa fa-calendar"></i> Laporan <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="<?php echo base_url('laporan/spp')?>">Pembayaran Komite</a></li>
-                      <li><a href="<?php echo base_url('laporan/osis')?>">Pembayaran Osis</a></li>
-                      <li><a href="<?php echo base_url('laporan/ekskul')?>">Pembayaran Ekstrakurikuler</a></li>
+                      <li><a href="<?php echo base_url('laporan_pdf/rekap_spp')?>">Pembayaran Komite</a></li>
+                      <li><a href="<?php echo base_url('laporan_pdf/rekap_osis')?>">Pembayaran Osis</a></li>
+                      <li><a href="<?php echo base_url('laporan_pdf/rekap_ekskul')?>">Pembayaran Ekstrakurikuler</a></li>
                     </ul>
                   </li>
                 </ul>

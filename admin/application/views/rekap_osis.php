@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <title>Cetak Pembayaran Ekskul</title>
+        <title>Cetak Pembayaran Osis</title>
         <link rel="stylesheet" href="<?php echo base_url('assets/bootstrap/css/bootstrap.min.css') ?>"/>
         <style>
             .word-table {
@@ -37,32 +37,15 @@
                     <th colspan="4" style="padding-top:-30px;"><hr style="border: 1.5px solid black;"></th>
                 </tr>
           </table>
-          <br>
-       <table style="font-size:12px; border-collapse: collapse !important; ">
-            <tr>
-                <td width="100px;"><p>Nomor Induk Siswa </p></td>
-                <td><p>:</p></td>
-                <td width="200px;"><p><?=$user['nis']?></p></td>
-                <td rowspan="3"><img src="<?php echo 'image/'. $user['foto']?>" alt="" width="100px;" height="100px;"></td>
-            </tr>
-            <tr>
-                <td width="100px;" style="padding-top:-20px;"><p>Nama Siswa </p></td>
-                <td style="padding-top:-20px;"><p>:</p></td>
-                <td width="200px;" style="padding-top:-20px;"><p><?=$user['nama_siswa']?></p></td>
-            </tr>
-            <tr>
-            <td width="100px;" style="padding-top:-35px;"><p>Kelas </p></td>
-            <td style="padding-top:-35px;"><p>:</p></td>
-            <td width="200px;" style="padding-top:-35px;"><p><?=$user['kelas']?></p></td>
-            </tr>
-       </table>
-
-       <br>
-       <br>
+          
+        <br>
 
        <table class="word-table">
             <tr >
                 <th width="10px;" style="background-color:pink;">No</th>
+                <th style="background-color:pink;">Nomor Induk Siswa</th>
+                <th style="background-color:pink;">Nama lengkap</th>
+                <th style="background-color:pink;">Kelas</th>
                 <th style="background-color:pink;" width="20px;">Semester</th>
                 <th style="background-color:pink;">Bulan</th>
                 <th style="background-color:pink;">Nominal</th>
@@ -100,23 +83,26 @@
             ?>
             <tr>
                 <td align="center"><?=++$start;?></td>
+                <td align="center"><?=$by->nis?></td>
+                <td align="center"><?=$by->nama?></td>
+                <td align="center"><?=$by->kelas?></td>
                 <td align="center"><?=$by->semester?></td>
                 <td align="center"><?=$bulan?></td>
-                <td align="center" width="50px;">Rp. <?=number_format($by->biaya_ekstrakurikuler,0,'.',',')?></td>
-                <td><?=$by->tgl_ekskul?></td>
+                <td align="center" width="50px;">Rp. <?=number_format($by->biaya_osis,0,'.',',')?></td>
+                <td><?=$by->tgl_osis?></td>
                 <td align="center"><?php
-                    if($by->foto_ekskul==""){
+                    if($by->foto_osis==""){
                         $jenis="Cash";
                     }else{
                         $jenis="Transfer";
                     }
                     echo $jenis;
                 ?></td>
-                <td align="center"><?=$by->status_ekstrakurikuler?></td>
+                <td align="center"><?=$by->status_osis?></td>
             </tr>
             <?php endforeach;?>
        </table>
-<br><br>
+       <br><br>
        <table style="padding-left:15px;">
        <tr>
            <td width="500px;">
